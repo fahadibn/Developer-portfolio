@@ -16,7 +16,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 20px 200px;
 }
 
 nav li {
@@ -41,9 +41,10 @@ nav ul {
 }
 
 .banner {
-    margin: 0 200px;
+    margin: 100px 200px;
     align-items: center;
     display: flex;
+
 }
 
 .banner-title {
@@ -83,6 +84,7 @@ main {
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+    margin-bottom: 100px;
 
 }
 
@@ -111,6 +113,71 @@ main {
 
 .info-section {
     font-weight: 700;
-    font-size:20px;
+    font-size: 20px;
     color: #474747;
+    /* skill section */
 }
+
+.skills-container {
+    display: flex;
+    gap: 25px;
+}
+
+.wht {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sklill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+/* resume section */
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.resume-content {
+    display: flex;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+.title {
+    color: #757575;
+    font-weight:700;
+    font-size: 20px;
+}
+.batto{ text-align: center;
+margin-top: 50px;}
+
+.contact{ display: flex;
+gap: 100px;
+background-color:#FFF8F3;
+padding: 130px 200px;}
+.contact ,input, textarea{ margin-bottom: 24px;
+border: 0;
+width: 80%;
+padding: 18px 30px;}
